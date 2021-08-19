@@ -1,6 +1,6 @@
-[![GitHub license](https://img.shields.io/github/license/TheBuzzDee/todo.svg?style=flat-square)](https://github.com/TheBuzzDee/todo/blob/master/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/TheBuzzDee/todo.svg?style=flat-square)](https://github.com/TheBuzzDee/todo/issues)
-![GitHub repo size in bytes](https://img.shields.io/github/repo-size/TheBuzzDee/todo.svg?style=flat-square)
+[![GitHub license](https://img.shields.io/github/license/TheBuzzDee/bludit-todo.svg?style=flat-square)](https://github.com/TheBuzzDee/bludit-todo/blob/master/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/TheBuzzDee/bludit-todo.svg?style=flat-square)](https://github.com/TheBuzzDee/bludit-todo/issues)
+![GitHub repo size in bytes](https://img.shields.io/github/repo-size/TheBuzzDee/bludit-todo.svg?style=flat-square)
 
 <div align="center">
   <h1>ToDo</h1>
