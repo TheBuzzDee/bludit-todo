@@ -12,8 +12,8 @@ class ToDo extends Plugin {
 
     public function adminView()
     {	
-	//include 'app.html';		
-	$html  = '<link rel="stylesheet" type="text/css" href="' . HTML_PATH_PLUGINS . 'todo/css/style.css">' . PHP_EOL;
+
+	$html  = '<link rel="stylesheet" type="text/css" href="' . HTML_PATH_PLUGINS . 'bludit-todo/css/style.css">' . PHP_EOL;
 	$html .= '<h2><span class="fa fa-check-circle" style="font-size: 0.9em;"></span><span>ToDo List</span></h2>';
 	$html .= '<div class="container">';
 	$html .= '<div class="form-group">';
@@ -25,7 +25,7 @@ class ToDo extends Plugin {
 	$html .= '<br/><br/>';
 	$html .= '<ul id="todoList"></ul>';
 	$html .= '</div>';
-	$html .= '<script src="' . HTML_PATH_PLUGINS . 'todo/js/todo.js"></script>' . PHP_EOL;
+	$html .= '<script src="' . HTML_PATH_PLUGINS . 'bludit-todo/js/todo.js"></script>' . PHP_EOL;
 	return $html;
 					
     }
