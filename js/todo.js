@@ -10,9 +10,9 @@ function listItemObj(content, status) {
 }
 var changeToComp = function(){
     var parent = this.parentElement;
-    console.log('ToDo changed to complete');
+    console.log('ToDo was done');
     parent.className = 'uncompleted well';
-    this.innerText = 'Restore';
+    this.innerText = 'Undo';
     this.removeEventListener('click',changeToComp);
     this.addEventListener('click',changeToInComp);
     changeListArray(parent.firstChild.innerText,'complete');
@@ -21,9 +21,9 @@ var changeToComp = function(){
 
 var changeToInComp = function(){
     var parent = this.parentElement;
-    console.log('ToDo changed to incomplete');
+    console.log('ToDo was restored ');
     parent.className = 'completed well';
-    this.innerText = 'Complete';
+    this.innerText = 'Done';
     this.removeEventListener('click',changeToInComp);
     this.addEventListener('click',changeToComp);
 
@@ -77,7 +77,7 @@ var createItemDom = function(text,status){
 
     itemLabel.innerText = text;
     itemCompBtn.className = 'btn btn-success';
-    itemCompBtn.innerText = (status == 'incomplete')?'Complete':'Restore';
+    itemCompBtn.innerText = (status == 'incomplete')?'Done':'Undo';
     if(status == 'incomplete'){
         itemCompBtn.addEventListener('click',changeToComp);
     }else{

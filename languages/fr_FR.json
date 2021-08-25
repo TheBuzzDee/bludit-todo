@@ -1,0 +1,7 @@
+{
+	"plugin-data":
+	{
+		"name": "ToDo",
+		"description": "Créez une liste de tâches dans le panneau d’administration. Toutes les tâches sont enregistrées dans le LocalStorage."
+	}
+}
